@@ -322,6 +322,7 @@ export class AnalyticHandler {
                             secretKey: langFuseSecretKey,
                             publicKey: langFusePublicKey,
                             baseUrl: langFuseEndpoint ?? 'https://cloud.langfuse.com',
+                            sdkIntegration: 'FLOWISE',
                             release
                         })
                         this.handlers['langFuse'] = { client: langfuse }
